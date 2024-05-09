@@ -1,0 +1,9 @@
+docker -v
+docker images
+docker ps
+docker hub command paste 
+docker images
+docker run --name JAVA -it -d OpenJDK
+docker ps
+docker exec -it JAVA jshell
+jshell>System.out.println("Hello World");
